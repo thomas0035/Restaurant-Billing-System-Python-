@@ -1,0 +1,51 @@
+HELP
+----
+This is the Main Menu of a hotel billing system.
+This Menu system consists of 6 different options.
+The 6 Different options are:
+1. Items
+2. Billing
+3. Customer Details
+4. Report
+5. Help
+6. Exit Program
+
+BRIEF EXPLANATION
+----- -----------
+
+1. Items: Gives us details like "Item No., Item Name, Price, Measures".
+
+FUNCTIONS		PURPOSE
+---------		-------
+it_search       To search for a particular item no. and display it's details.
+it_printrec    	To show details of a particular item whose item no. is inputed by the user.
+it_inputrec	It is a function that is used in the process of adding a new item.
+it_append 	To append details into Items.txt
+it_listing	To list the details in Items.txt
+it_update	To update the details of an item
+it_view		To view the details of a particular item no.
+it_delete	To delete the details of an item
+main		Displays Items.txt in the form of a Menu.
+ 
+
+
+2. Billing: Gives us details like "Bill No., Bill Date, Customer No., Item No., Quantity Ordered".
+
+
+FUNCTION		PURPOSE
+--------		-------
+nxtbillno()		To give a pre - defined value for bill number.
+billing()		To enter or input a customer’s bill.
+view_bill()		To view all the details inputted and print the final list of details of a customer’s bill.
+search_bill()		To search for a particular customer’s bill and display its details.
+main()			The main menu that comes under the billing system that allows you to choose from 3 given options.
+
+
+
+3. Customer Details: Gives us details of a particular customer like " Bill No., Customer Name, Address, Contact Number".
+
+4. Report: Uses the details of all the bills that are stored in billing.txt and the grand total of all the bills. 
+
+5. Help  : Gives us the details of all the modules and corresponding functions.   
+
+6. Exit Program: Helps us to exit the Menu.
